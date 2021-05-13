@@ -1,0 +1,119 @@
+html {
+    background: linear-gradient(#83C6DD, #AFD5AA);
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%;
+    overflow-x: hidden;
+}
+body {
+    background: linear-gradient(#83C6DD, #AFD5AA);
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%;
+    overflow-x: hidden;
+}
+.bg_music {
+    margin-left: 1%;
+}
+.fa-volume-up, .fa-volume-off {
+    color:#5AA897;
+    padding: 1rem;
+    border: 2px solid transparent;
+}
+.fa-volume-up:hover, .fa-volume-off:hover {
+    color:#4CA1A3;
+    border: 2px solid #4CA1A3;
+    transition: 0.2s ease;
+    border-radius: 50%;
+}
+p {
+    font-family: "Press Start 2P";
+    font-size: 0.5em;
+    color: #4CA1A3;
+}
+.typ_txt {
+    width:38ch;
+ 	animation: typing 5s steps(38, end), blink 0.75s step-end infinite alternate;
+     white-space: nowrap;
+     overflow: hidden;
+}
+@keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+
+h1 {
+    
+    font-family: "Press Start 2P";
+    font-size: 2em;
+    font-style: oblique;
+    color: #FFF;
+    text-shadow: 2px 2px #957DAD;
+}
+#giphy {
+    height:50vh;
+    width:50vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: -2%;
+    border-radius: 2%;    
+}
+h2 {
+    font-size:1.8em;
+    color: #FFF;
+}
+.timer {
+    color:#fff;
+    text-align: center;
+    /*to align to the center of the container*/
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5%;
+}
+
+.row {
+    width:60%;
+}
+
+.fa-play, .fa-redo-alt {
+    color:#FFF;
+    border: 2px solid transparent;
+    padding: 1rem;  
+}
+
+.fa-play:hover, .fa-redo-alt:hover {
+    color:#4CA1A3;
+    border: 2px solid #4CA1A3;
+    transition: 0.2s ease;
+    border-radius: 50%;
+}
+
+.show_msg {
+    display: block;
+    font-family: "Press Start 2P";
+    color: #957DAD;
+    text-shadow: 2px 2px #fff;
+    transition: 0.5s ease;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width: 700px) {
+    #giphy {
+        height: 60vh;
+        width: 80vw;
+    }
+
+}
+
